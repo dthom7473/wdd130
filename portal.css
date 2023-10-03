@@ -1,3 +1,14 @@
+ /* * { 
+    border: 1px solid red;
+} */
+body {
+    background-color:#ccc;
+}
+#content {
+    background-color:white;
+    width: 80%;
+    margin: 0 auto;
+}
 a {
     background-color: lightblue;
     color: rgb(71,69,69);
@@ -6,12 +17,34 @@ a {
     margin:  5px;
     text-align: center;
 }
+a:hover {
+    background-color: darkgray;
+    color: white
+}
 nav {
     display: flex;
+    justify-content: center;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+}
+p {
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
 }
 .background {
     background-color: #ccc
 }
-#primary {
-    background: pink
+footer p{
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+    color: rgb(71,69,69);
 }
