@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Shadows+Into+Light&display=swap');
 ::first-line{
     --primary-color: #2F2E2C;
     --secondary-color: #816E94 ;
     --accent1-color: #558564;
     --accent2-color: #087E8b;
 }
+body {
+    background-color: #FAF5EF;
+    font-family: "Inclusive Sans", Verdana, Arial;
+}
 nav a {
     text-align: center;
     color:antiquewhite;
     text-decoration: none;
+}
+h1 {
+    font-family: "Shadows Into Light";
 }
 #content {
     max-width: 1600px;
@@ -28,9 +36,7 @@ section {
 #background {
     height: 725px;
 }
-body {
-    background-color: #FAF5EF;
-}
+
 header {
     background-color: #2F2E2C;
 }

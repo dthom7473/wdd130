@@ -3,7 +3,7 @@
 } */
 @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Shadows+Into+Light&display=swap');
 body {
-    font-family: "Inclusive Sans", verdana;
+    font-family: "Inclusive Sans", Verdana, Arial;
     background-color:#ccc;
     padding:0;
     margin:0;
