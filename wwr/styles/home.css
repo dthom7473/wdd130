@@ -67,6 +67,7 @@ a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    text-decoration: none;
 }
 .join {
     background-color: #087E8b;
@@ -74,6 +75,7 @@ a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    text-decoration: none;
 }
 .card-img {
     border: 10px solid;
