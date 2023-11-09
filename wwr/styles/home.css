@@ -186,6 +186,72 @@ main section img {
 h4 {
     color: black;
 }
+#rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    border: 30px solid #FAF5EF;
+}
+.wet-river-img{
+    grid-column : 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    height: 75%;
+    transition: transform.5s;
+    border: 5px solid #816E94;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 8px;
+    
+}
+.wet-river-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.wet-river-text{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    text-align: center;
+}
+.lake-river-img{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    width: 100%;
+    transition: transform.5s;
+    border: 5px solid #816E94;
+    box-shadow: 5px 5px 10px black;  
+    border-radius: 8px;
+}
+.lake-river-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.lake-river-text{
+    grid-column: 1/3;
+    grid-row: 4/5;
+    text-align: center;
+}
+.river-river-img{
+    grid-column: 1/2;
+    grid-row: 6/7;
+    max-width: 100%;
+    height: 100%;
+    transition: transform.5s;
+    border: 5px solid #816E94;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 8px;
+}
+.river-river-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.river-river-text{
+    grid-column: 2/4;
+    grid-row: 6/7;
+    text-align: center;
+}
+.title{
+    grid-column: 2/3;
+}
 footer {
     background-color: #2F2E2C;
     color: white;
