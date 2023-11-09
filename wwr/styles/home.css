@@ -191,6 +191,7 @@ h4 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
     border: 30px solid #FAF5EF;
+    align-items: center;
 }
 .wet-river-img{
     grid-column : 1/2;
@@ -211,6 +212,7 @@ h4 {
     grid-column: 2/4;
     grid-row: 2/3;
     text-align: center;
+    max-height: 100%;
 }
 .lake-river-img{
     grid-column: 3/4;
