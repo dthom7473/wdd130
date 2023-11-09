@@ -234,7 +234,7 @@ h4 {
     grid-column: 1/2;
     grid-row: 6/7;
     max-width: 100%;
-    height: 100%;
+    height: 95%;
     transition: transform.5s;
     border: 5px solid #816E94;
     box-shadow: 5px 5px 10px black;
