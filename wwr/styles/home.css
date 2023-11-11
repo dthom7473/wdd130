@@ -253,6 +253,7 @@ h4 {
 }
 .title{
     grid-column: 2/3;
+    text-align: center;
 }
 footer {
     background-color: #2F2E2C;
