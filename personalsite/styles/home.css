@@ -45,11 +45,9 @@ nav a{
     padding-bottom: 30px;
 }
 #logo_link{
-    padding-top: 5px;
     padding-left: 100px;
     justify-self: center;
-    align-self: center; 
-    width: 100px;
+    align-self: center;
     transform: scale(2);
 }
 
