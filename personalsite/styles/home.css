@@ -9,6 +9,7 @@
   --paragraph-font: Cabin, "Times New Roman", sans-serif;
 
 }
+/* header */
 h1{
     font-family: Anton, sans-serif, times;
     text-align: center;
@@ -24,33 +25,36 @@ body {
 nav a:hover {
     background-color: #FAF5EF;
     color: black;
-}
-footer a:hover {
-    background-color: #FAF5EF;
-    color: black;
+    border-radius: 20px;
 }
 header{
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #4C3B4D;
+    border-radius:20px;
+    border: 5px solid #816E94;
 }
 nav{
     display: flex;
     justify-content: space-around;
+    margin: 10px;
 }
 nav a{
     text-decoration: none;
     color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #logo_link{
     padding-left: 100px;
-    justify-self: center;
     align-self: center;
     transform: scale(2);
 }
 
+/* Home page */
 #hero {
     display: grid;
     margin-top: -100px;
@@ -79,30 +83,6 @@ nav a{
 #hero-msg h4, #hero-msg h1 {
     color: antiquewhite;
 }
-footer {
-    background-color: #4C3B4D;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-footer .social img {
-    margin: 15px;
-}
-footer a {
-    color: #FAF5EF;
-}
-footer a:hover{
-    color: black;
-}
-footer p a:hover {
-    text-decoration: underline;
-}
-.social a{
-    text-decoration: none;
-}
 
 .devlog-home {
     display: grid;
@@ -124,7 +104,7 @@ footer p a:hover {
 }
 .devlog-img{
     width: 90%;
-    height: 85%;
+    height: 90%;
     margin: 25px;
     border: 5px solid #816E94;
     box-shadow: 2px 5px 10px black;  
@@ -141,17 +121,16 @@ footer p a:hover {
 .assets-home {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
     padding: 25px;
 }
 .assets-img{
-    width: 100%;
-    height: 80%;
+    width: 75%;
+    height: 85%;
     border: 5px solid #816E94;
     box-shadow: 2px 5px 10px black;  
     border-radius: 8px;
-    place-self: center;
     transition: transform.5s;
 }
 .assets-img:hover{
@@ -170,4 +149,73 @@ footer p a:hover {
     grid-row: 1/2;
     text-align: center;
     padding: 50px;
+}
+
+/* Coding Page */
+.main-dev{
+    display: grid;
+    margin: 25px;
+}
+h1{
+    grid-row: 1/2;
+    text-align: center;
+}
+.devlog-img1{
+    grid-row:2/3;
+    width: 100%;
+    border-radius: 50px;
+}
+.paragraph-1{
+    text-align: center;
+    grid-row: 3/4;
+    font-size: 25px;
+}
+.devlog-img2{
+    grid-row:4/5;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #4C3B4D;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:20px;
+    border: 5px solid #816E94;
+}
+footer .social img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer a {
+    color: #FAF5EF;
+    margin: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer .links:hover{
+    background-color: #FAF5EF;
+    color: black;
+    border-radius: 20px;
+    text-decoration: underline;
+}
+.social img:hover{
+    padding: 0;
+    opacity: .6;
+    transform: scale(1.1);
+
+}
+.social a{
+    background-color: transparent;
+}
+.social img{
+    transition: transform.3s;
+}
+.social a{
+    text-decoration: none;
 }
