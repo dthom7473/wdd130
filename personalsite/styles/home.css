@@ -103,8 +103,8 @@ nav a{
     transform: scale(1.1);
 }
 .devlog-img{
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin: 25px;
     border: 5px solid #816E94;
     box-shadow: 2px 5px 10px black;  
@@ -154,7 +154,9 @@ nav a{
 /* Coding Page */
 .main-dev{
     display: grid;
-    margin: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
 }
 h1{
     grid-row: 1/2;
@@ -173,6 +175,20 @@ h1{
 .devlog-img2{
     grid-row:4/5;
     width: 100%;
+    height: 100%;
+    border-radius: 50px;
+
+}
+.paragraph-2{
+    text-align: center;
+    grid-row:5/6;
+    font-size: 25px;
+}
+.devlog-img3{
+    grid-row:6/7;
+    width:100%;
+    height: 60%;
+    border-radius: 50px;
 }
 
 /* Footer */
