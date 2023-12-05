@@ -79,6 +79,7 @@ nav a{
     text-align: center;
     text-shadow: 2px 2px black;
     padding: 50px;
+    line-height: 45px;
 }
 #hero-msg h4, #hero-msg h1 {
     color: antiquewhite;
@@ -117,6 +118,7 @@ nav a{
     text-align: center;
     padding: 50px;
     place-self: center;
+    line-height: 45px;
 }
 .assets-home {
     display: grid;
@@ -149,6 +151,7 @@ nav a{
     grid-row: 1/2;
     text-align: center;
     padding: 50px;
+    line-height: 45px;
 }
 
 /* Coding Page */
@@ -171,6 +174,7 @@ h1{
     text-align: center;
     grid-row: 3/4;
     font-size: 25px;
+    line-height: 45px;
 }
 .devlog-img2{
     grid-row:4/5;
@@ -183,6 +187,7 @@ h1{
     text-align: center;
     grid-row:5/6;
     font-size: 25px;
+    line-height: 45px;
 }
 .devlog-img3{
     grid-row:6/7;
